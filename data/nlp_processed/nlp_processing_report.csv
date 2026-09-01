@@ -1,0 +1,12 @@
+filename,sentences,tokens,tokens_after_stopword_removal,company_names_found,dates_found,currency_found,financial_metrics_found,percentages_found,business_segments_found,status
+annual_report_novatech_fy2026.txt,15,130,100,3,2,2,2,3,2,SUCCESS
+balance_sheet_f.txt,880,13574,11170,0,0,0,0,0,0,SUCCESS
+balance_sheet_novatech_fy2026.txt,5,92,86,1,1,13,12,0,0,SUCCESS
+bank_statement.txt,1,639,464,0,0,0,0,0,0,SUCCESS
+bank_statement_novatech_may2026.txt,1,95,81,3,7,11,2,0,0,SUCCESS
+cash_flow_novatech_fy2026.txt,4,105,88,1,1,7,7,0,0,SUCCESS
+income_statement.txt,4,9357,4187,0,0,0,0,0,0,SUCCESS
+income_statement_novatech_fy2026.txt,2,69,63,1,1,12,11,0,0,SUCCESS
+invoice_brightedge_inv_2026_00457.txt,1,73,65,2,2,9,3,1,0,SUCCESS
+invoice_f.txt,1,11277,11136,0,0,0,0,0,0,SUCCESS
+scanned_invoice_brightedge.txt,10,75,68,2,2,9,2,1,0,SUCCESS

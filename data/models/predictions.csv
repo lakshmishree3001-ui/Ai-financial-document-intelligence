@@ -1,0 +1,13 @@
+filename,true_category,predicted_category,correct
+annual_report.csv,Annual Report,Annual Report,YES
+annual_report_novatech_fy2026.pdf,Annual Report,Annual Report,YES
+balance_sheet_f.pdf,Balance Sheet,Balance Sheet,YES
+balance_sheet_novatech_fy2026.pdf,Balance Sheet,Balance Sheet,YES
+bank_statement.pdf,Bank Statement,Bank Statement,YES
+bank_statement_novatech_may2026.pdf,Bank Statement,Bank Statement,YES
+cash_flow_novatech_fy2026.pdf,Cash Flow Statement,Cash Flow Statement,YES
+income_statement.pdf,Income Statement,Income Statement,YES
+income_statement_novatech_fy2026.pdf,Income Statement,Income Statement,YES
+invoice_brightedge_inv_2026_00457.pdf,Invoice,Invoice,YES
+invoice_f.pdf,Invoice,Invoice,YES
+scanned_invoice_brightedge.pdf,Invoice,Invoice,YES

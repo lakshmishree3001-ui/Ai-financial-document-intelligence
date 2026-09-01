@@ -1,0 +1,32 @@
+# Financial Document Intelligence Platform - Module 14
+# Runs both the API and the dashboard as separate containers,
+# sharing the same project data via a mounted volume.
+#
+# Run with: docker compose up --build
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../data:/app/../data   # persist SQLite DB + processed data across rebuilds
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["streamlit", "run", "dashboard.py", "--server.address=0.0.0.0", "--server.port=8501"]
+    ports:
+      - "8501:8501"
+    volumes:
+      - ../data:/app/../data
+    depends_on:
+      - api

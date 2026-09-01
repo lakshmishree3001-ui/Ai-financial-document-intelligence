@@ -1,0 +1,51 @@
+country,year,inflation_annual_cpi,exch_usd,banking_crisis,inflation_zscore,stat_anomaly,isoforest_anomaly,flagged_by_n_methods
+Zimbabwe,2008,21989695.22,0.002,crisis,9.38138114169453,True,True,2
+Zimbabwe,2007,66279.89237,1.9e-16,crisis,-0.07715168539740552,False,True,1
+Angola,1996,4146.01,0.201994,crisis,6.857183740686641,True,True,2
+Angola,1995,2672.23,0.005692,crisis,4.3268422610227155,True,True,2
+Angola,1993,1379.476,6.5e-06,crisis,2.1073053768191996,False,True,1
+Zimbabwe,2006,1281.113605,3e-19,crisis,-0.10519444577401607,False,True,1
+Angola,1994,949.771,0.000509262,crisis,1.3695423555276993,False,True,1
+Zimbabwe,2003,598.7447505,7.949999999999999e-24,crisis,-0.10548884370946636,False,True,1
+Zimbabwe,2005,585.8443656,8.46e-22,crisis,-0.10549440938945898,False,True,1
+Angola,2000,325.029,16.81784,no_crisis,0.2969191711391204,False,True,1
+Zambia,1993,183.263,0.561,no_crisis,4.56589498941345,True,False,1
+Zambia,1992,165.725,0.31496,no_crisis,4.0693432009239645,True,False,1
+Angola,2001,152.586,31.94936,no_crisis,0.0008507784497867525,False,True,1
+Zambia,1989,128.294,0.01841,no_crisis,3.0095627245327043,True,False,1
+Nigeria,1995,72.729,21.88662727,crisis,3.7027896216108087,True,False,1
+Tunisia,1943,72.10948561,50.0,no_crisis,4.266216772413489,True,False,1
+Algeria,1947,69.23076923,1.193,no_crisis,4.130362069726115,True,False,1
+Tunisia,1948,69.14172635,119.3,no_crisis,4.064664013577976,True,True,2
+Tunisia,1947,67.09975712,119.3,no_crisis,3.925985470034748,True,True,2
+Algeria,1948,63.63636364,2.662,no_crisis,3.7407648747519633,True,False,1
+Morocco,1947,57.47303544,1.2228,no_crisis,3.98430352606954,True,False,1
+Morocco,1946,56.75522894,1.2228,no_crisis,3.925689014340104,True,False,1
+Kenya,1993,45.979,68.1631,crisis,4.770874453661553,True,False,1
+Egypt,1942,40.76638415,0.2416,no_crisis,3.671868101557659,True,False,1
+Egypt,1917,35.4800225,0.2049,no_crisis,3.1327377859013255,True,False,1
+South Africa,1920,35.18691332,0.2532,no_crisis,4.533929542878223,True,False,1
+Mauritius,1980,33.04,7.8349,no_crisis,3.4339813146527414,True,False,1
+Mauritius,1948,31.99785465,3.3085,no_crisis,3.297312658837397,True,False,1
+Central African Republic,1971,27.69953052,261.2248152,no_crisis,3.1253482349568427,True,False,1
+Ivory Coast,1994,25.956,540.0,no_crisis,3.007404012547183,True,True,2
+Central African Republic,1994,24.55,534.5996218,crisis,2.6748434491127795,False,True,1
+Central African Republic,1995,19.2,489.9996534,crisis,1.9095863452490145,False,True,1
+Central African Republic,1983,14.558,417.3747047,no_crisis,1.245600648775071,False,True,1
+Ivory Coast,1995,14.1,495.0,no_crisis,1.2108484187914292,False,True,1
+Central African Republic,2014,11.584,540.2825138,no_crisis,0.8202035222534191,False,True,1
+Central African Republic,2008,9.262,471.3350578,no_crisis,0.48806763530544484,False,True,1
+Ivory Coast,1997,6.301,616.0,no_crisis,0.029055480557528802,False,True,1
+Ivory Coast,1998,5.219,576.0,no_crisis,-0.13490143176059918,False,True,1
+Central African Republic,2001,3.843,744.3061387,no_crisis,-0.28705913961749785,False,True,1
+Central African Republic,2000,3.202,704.9511016,no_crisis,-0.37874695337014713,False,True,1
+Central African Republic,2005,2.885,556.0371281,no_crisis,-0.42409022475796276,False,True,1
+Ivory Coast,1996,2.7,525.7,no_crisis,-0.5166088828967955,False,True,1
+Central African Republic,2002,2.298,625.4953752,no_crisis,-0.508053948116473,False,True,1
+Central African Republic,1997,1.597,598.8095764,crisis,-0.6083240845292767,False,True,1
+Central African Republic,2011,1.195,506.9611253,no_crisis,-0.6658256463523109,False,True,1
+Central African Republic,1999,-1.415,652.9534143,crisis,-1.0391566820690263,False,True,1
+Central African Republic,1998,-1.871,562.2096023,crisis,-1.1043823342861996,False,True,1
+Central African Republic,2004,-2.244,481.5777109,no_crisis,-1.1577357734901592,False,True,1
+South Africa,1921,-18.07365899,0.2406,no_crisis,-3.5163243405215447,True,False,1
+Egypt,1921,-28.50213688,0.2343,no_crisis,-3.392491486468498,True,False,1

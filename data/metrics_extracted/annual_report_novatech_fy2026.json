@@ -1,0 +1,21 @@
+{
+  "filename": "annual_report_novatech_fy2026.txt",
+  "document_year": "FY2026",
+  "metrics_found": 2,
+  "metrics": [
+    {
+      "metric": "Revenue",
+      "label_matched": "revenue",
+      "value": "Rs. 850 crore",
+      "year": "FY2026",
+      "source_line": "generated revenue of Rs. 850 crore, up 18% year-on-year, driven by"
+    },
+    {
+      "metric": "Net Income",
+      "label_matched": "Net profit",
+      "value": "Rs. 105 crore",
+      "year": "FY2026",
+      "source_line": "- Net profit grew 12% to Rs. 105 crore"
+    }
+  ]
+}

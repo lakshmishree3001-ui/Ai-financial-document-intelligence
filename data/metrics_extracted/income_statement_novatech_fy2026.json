@@ -1,0 +1,42 @@
+{
+  "filename": "income_statement_novatech_fy2026.txt",
+  "document_year": "FY2026",
+  "metrics_found": 5,
+  "metrics": [
+    {
+      "metric": "Revenue",
+      "label_matched": "Revenue",
+      "value": "Rs. 850,00,00,000",
+      "year": "FY2026",
+      "source_line": "Revenue ................................. Rs. 850,00,00,000"
+    },
+    {
+      "metric": "Gross Profit",
+      "label_matched": "Gross Profit",
+      "value": "Rs. 340,00,00,000",
+      "year": "FY2026",
+      "source_line": "Gross Profit ............................. Rs. 340,00,00,000"
+    },
+    {
+      "metric": "Operating Profit",
+      "label_matched": "Operating Profit",
+      "value": "Rs. 145,00,00,000",
+      "year": "FY2026",
+      "source_line": "Operating Profit .......................... Rs. 145,00,00,000"
+    },
+    {
+      "metric": "Net Income",
+      "label_matched": "Net Income",
+      "value": "Rs. 105,00,00,000",
+      "year": "FY2026",
+      "source_line": "Net Income ................................. Rs. 105,00,00,000"
+    },
+    {
+      "metric": "EPS",
+      "label_matched": "Earnings Per Share (EPS)",
+      "value": "Rs. 21.00",
+      "year": "FY2026",
+      "source_line": "Earnings Per Share (EPS) ................... Rs. 21.00"
+    }
+  ]
+}

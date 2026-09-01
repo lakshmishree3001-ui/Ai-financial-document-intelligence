@@ -1,0 +1,63 @@
+{
+  "company": "NovaTech Industries Ltd.",
+  "period": "FY2026",
+  "insights": [
+    {
+      "status": "positive",
+      "text": "Revenue growth is strong (+18% year-on-year).",
+      "evidence": {
+        "document": "annual_report_novatech_fy2026.txt",
+        "text": "Risk Factors: - Increasing competition in the digital services segment Outlook: The management expects continued double-digit revenue growth in FY2027, supported by new product launches and capacity expansion.",
+        "score": 0.2889
+      }
+    },
+    {
+      "status": "positive",
+      "text": "Operating margins improved - net profit grew +12% YoY, with a net profit margin of 12.3%.",
+      "evidence": {
+        "document": "income_statement_novatech_fy2026.txt",
+        "text": "Operating Expenses: Research & Development ............... Rs. 45,00,00,000 Total Operating Expenses ................. Rs. 195,00,00,000 Operating Profit .......................... Rs. 145,00,00,000",
+        "score": 0.501
+      }
+    },
+    {
+      "status": "positive",
+      "text": "Debt increased moderately (+7% year-on-year), consistent with funding growth rather than distress.",
+      "evidence": {
+        "document": "annual_report_novatech_fy2026.txt",
+        "text": "Business Highlights: - Net profit grew 12% to Rs. 105 crore - Expanded into two new international markets - Total debt increased 7% to fund capacity expansion",
+        "score": 0.4238
+      }
+    },
+    {
+      "status": "positive",
+      "text": "Leverage is manageable - debt-to-equity ratio is 0.50, well within the commonly used 1.0 benchmark.",
+      "evidence": {
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "text": "Current Liabilities: Retained Earnings ................... Rs. 74,50,00,000 Total Equity ............................ Rs. 134,50,00,000 Total Liabilities and Equity ............ Rs. 220,50,00,000",
+        "score": 0.6327
+      }
+    },
+    {
+      "status": "positive",
+      "text": "Liquidity position is strong - current ratio of 2.76 comfortably covers short-term obligations.",
+      "evidence": {
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "text": "Current Assets: LIABILITIES Current Liabilities: Accounts Payable ................... Rs. 19,00,00,000",
+        "score": 0.8416
+      }
+    },
+    {
+      "status": "warning",
+      "text": "6 of 76 recent transactions (8%) were flagged as statistically unusual and warrant manual review.",
+      "evidence": null
+    },
+    {
+      "status": "not_computable",
+      "text": "Operating expenses vs. revenue growth (YoY) could not be evaluated - the current dataset has only a single-period Income Statement, so there is no prior-period operating-expense figure to compare against.",
+      "evidence": null
+    }
+  ],
+  "overall_risk": "Low",
+  "risk_ratio": 0.111
+}

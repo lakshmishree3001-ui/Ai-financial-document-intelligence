@@ -1,0 +1,12 @@
+{
+  "filename": "balance_sheet_novatech_fy2026.pdf",
+  "file_type": "PDF",
+  "num_pages": 1,
+  "blank_pages": 0,
+  "extraction_method": "pdf_text_extraction",
+  "raw_char_count": 1006,
+  "cleaned_char_count": 1006,
+  "word_count": 104,
+  "processed_on": "2026-08-26 22:08:48",
+  "text": "NovaTech Industries Ltd. - Balance Sheet\nCompany: NovaTech Industries Ltd.\nStatement: Balance Sheet as of 31 March 2026\nASSETS\nCurrent Assets:\nCash and Cash Equivalents ......... Rs. 45,00,00,000\nAccounts Receivable ............... Rs. 22,50,00,000\nInventory .......................... Rs. 18,00,00,000\nNon-Current Assets:\nProperty, Plant & Equipment ....... Rs. 120,00,00,000\nIntangible Assets .................. Rs. 15,00,00,000\nTotal Assets ........................... Rs. 220,50,00,000\nLIABILITIES\nCurrent Liabilities:\nAccounts Payable ................... Rs. 19,00,00,000\nShort-term Borrowings .............. Rs. 12,00,00,000\nNon-Current Liabilities:\nLong-term Debt ...................... Rs. 55,00,00,000\nTotal Liabilities ....................... Rs. 86,00,00,000\nEQUITY\nShare Capital ....................... Rs. 60,00,00,000\nRetained Earnings ................... Rs. 74,50,00,000\nTotal Equity ............................ Rs. 134,50,00,000\nTotal Liabilities and Equity ............ Rs. 220,50,00,000"
+}

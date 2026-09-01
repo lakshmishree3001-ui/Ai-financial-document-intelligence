@@ -1,0 +1,12 @@
+AI FINANCIAL INSIGHTS
+NovaTech Industries Ltd. - FY2026
+
+[+] Revenue growth is strong (+18% year-on-year).
+[+] Operating margins improved - net profit grew +12% YoY, with a net profit margin of 12.3%.
+[+] Debt increased moderately (+7% year-on-year), consistent with funding growth rather than distress.
+[+] Leverage is manageable - debt-to-equity ratio is 0.50, well within the commonly used 1.0 benchmark.
+[+] Liquidity position is strong - current ratio of 2.76 comfortably covers short-term obligations.
+[!] 6 of 76 recent transactions (8%) were flagged as statistically unusual and warrant manual review.
+[?] Operating expenses vs. revenue growth (YoY) could not be evaluated - the current dataset has only a single-period Income Statement, so there is no prior-period operating-expense figure to compare against.
+
+Overall Risk: Low

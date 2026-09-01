@@ -1,0 +1,16 @@
+NovaTech Industries Ltd. - Income Statement
+Company: NovaTech Industries Ltd.
+Statement: Income Statement for FY2026
+Revenue ................................. Rs. 850,00,00,000
+Cost of Goods Sold ....................... Rs. 510,00,00,000
+Gross Profit ............................. Rs. 340,00,00,000
+Operating Expenses:
+Selling & Marketing ................. Rs. 90,00,00,000
+General & Administrative ............ Rs. 60,00,00,000
+Research & Development ............... Rs. 45,00,00,000
+Total Operating Expenses ................. Rs. 195,00,00,000
+Operating Profit .......................... Rs. 145,00,00,000
+Interest Expense .......................... Rs. 12,00,00,000
+Tax Expense ................................ Rs. 28,00,00,000
+Net Income ................................. Rs. 105,00,00,000
+Earnings Per Share (EPS) ................... Rs. 21.00

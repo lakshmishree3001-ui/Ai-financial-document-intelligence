@@ -1,0 +1,880 @@
+ITEM Item BANK Bank COU Country YEA Year Value Flag Codes
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 4974.45 4974.452
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 59.828.923 5.98E+11
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 500.06 500.062
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 500.5 500.5201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 50107.93 50107.93
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 50185.15 50185.15
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 502680.4 502680.4
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 502796.3 502796.3
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5030.54 5030.542
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5045.81 5045.812
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 506.64 506.642
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 50688.61 50688.61
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 507170.4 507170.4
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5083.97 5083.972
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 50964.5 50964.52
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 51046.81 51046.81
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 511.98 511.982
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 511.98 511.982
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 512812.7 512812.7
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 51286.06 51286.06
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 51336.6 51336.62
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 513716.7 513716.7
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 51547.7 51547.72
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 51549.8 51549.82
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 51554.1 51554.12
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 516.9 516.9201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5178469 5178469
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 519.9 519.9201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 519971.2 519971.2
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 52.41 52.41201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 52.81 52.81201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 52.84 52.84201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5217.84 5217.842
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 522806.1 522806.1
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5230.74 5230.742
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 523996.3 523996.3
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 525058.7 525058.7
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5251.98 5251.982
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 525145.5 525145.5
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 52545.3 52545.32
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5260.58 5260.582
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 526729.8 526729.8
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 527392.9 527392.9
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 527619.8 527619.8
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5280.19 5280.192
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5289.86 5289.862
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5316.98 5316.982
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 531777.3 531777.3
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 53209.6 53209.62
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5321180 5321180
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 532203.2 532203.2
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 53291.75 53291.75
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 533.1 533.1201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5334.42 5334.422
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 53375.3 53375.32
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 537226.3 537226.3
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 538472.4 538472.4
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 539.07 539.072
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 539993.6 539993.6
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 54039.42 54039.42
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 542870.9 542870.9
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 544054.3 544054.3
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5442.19 5442.192
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5458.71 5458.712
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 54585.17 54585.17
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 549517.8 549517.8
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 54969.6 54969.62
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5504.63 5504.632
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 55095.5 55095.52
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 5510.62 5510.622
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 55295.51 55295.51
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 55311.1 55311.12
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 55563.17 55563.17
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 555902.3 555902.3
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 55847.15 55847.15
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 56.86 56.86201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks USA United States 2009 2009 560.47 560.472
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 561305.1 561305.1
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 56194.4 56194.42
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 562448.9 562448.9
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 562792.7 562792.7
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5651.93 5651.932
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5656.14 5656.142
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5656.93 5656.932
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 56647.15 56647.15
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5667.29 5667.292
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 567408.4 567408.4
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 56979.67 56979.67
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 569983.7 569983.7
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 57187.92 57187.92
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 572346.2 572346.2
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 57485.8 57485.82
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 576669.7 576669.7
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 577.82 577.822
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 57877991 57877991
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5791.78 5791.782
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 58236.44 58236.44
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5832.17 5832.172
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5834.99 5834.992
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5835.23 5835.232
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5839.33 5839.332
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 58473.51 58473.51
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 58567.3 58567.32
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5859126 5859126
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 586425.4 586425.4
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 58666.81 58666.81
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 59008.17 59008.17
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 591267.5 591267.5
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5918.83 5918.832
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 59205.7 59205.72
+SI38TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 592138.2 592138.2
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 59256.5 59256.52
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 594.2 594.2201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 59434.98 59434.98
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 594749.8 594749.8
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5972.36 5972.362
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5976.26 5976.262
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 5978.16 5978.162
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 59880.12 59880.12
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 59923.07 59923.07
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 601618.5 601618.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 60340.31 60340.31
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 606.42 606.422
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 606627 606627
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 606834.8 606834.8
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 606980.7 606980.7
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 607522 607522
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 607605.5 607605.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6092005 6092005
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6092005 6092005
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 61176.8 61176.82
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 612266.2 612266.2
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 61430.9 61430.92
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 61587.8 61587.82
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 61685.35 61685.35
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6175.97 6175.972
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 619130.1 619130.1
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 62.38 62.38201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 62055.1 62055.12
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 62614.7 62614.72
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 62629.6 62629.62
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 62634.7 62634.72
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6284.27 6284.272
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 628740.5 628740.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 633640.2 633640.2
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 634.6 634.6201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6344.55 6344.552
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 635.5 635.5201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 63566.33 63566.33
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6387.95 6387.952
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 63901.77 63901.77
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6402652 6402652
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 642.92 642.922
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 642226.6 642226.6
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 64790.06 64790.06
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6482.31 6482.312
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6495090 6495090
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 650.99 650.992
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 65042.09 65042.09
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 65668.97 65668.97
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6588.79 6588.792
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 65897.17 65897.17
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 659540 659540
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 66017.1 66017.12
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6606266 6606266
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 66343.03 66343.03
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6638.78 6638.782
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 666001.4 666001.4
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 667165.9 667165.9
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 66724.6 66724.62
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 66788.9 66788.92
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 668.51 668.512
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 669914.9 669914.9
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 671.7 671.7201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 67178.95 67178.95
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 672.58 672.582
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6732.15 6732.152
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 673451.3 673451.3
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6742.82 6742.822
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 67496.03 67496.03
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 676849.1 676849.1
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6772.18 6772.182
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 677936.3 677936.3
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 678.7 678.7201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6805.54 6805.542
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 682.1 682.1201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 684.17 684.172
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 68411.99 68411.99
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 685126.5 685126.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 686.16 686.162
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 687.46 687.462
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 68846.13 68846.13
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6904.59 6904.592
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 6931.35 6931.352
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 69420.16 69420.16
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 69617.2 69617.22
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 697283.9 697283.9
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 700.4 700.4201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 70087.2 70087.22
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7032.86 7032.862
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 705.96 705.962
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7068.14 7068.142
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 708475.7 708475.7
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 70891.27 70891.27
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 710.22 710.222
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 71065.17 71065.17
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 713.73 713.732
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 713726.5 713726.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 71396.85 71396.85
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 71430.7 71430.72
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 71738.07 71738.07
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 71851.35 71851.35
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 72052.4 72052.42
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 725001.5 725001.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7267.36 7267.362
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7.27E+08 7.27E+08
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 727218.9 727218.9
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 728421.3 728421.3
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 729.9 729.9201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 730375.5 730375.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 732996.2 732996.2
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 73488.4 73488.42
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 736145.8 736145.8
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 73703.15 73703.15
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 74033.9 74033.92
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 741352.8 741352.8
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7418.63 7418.632
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7428.18 7428.182
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 743453 743453
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 743933.9 743933.9
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7.46E+08 7.46E+08
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 75198.38 75198.38
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 752010.7 752010.7
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 755.23 755.232
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 76112.95 76112.95
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7.64E+08 7.64E+08
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 76478.33 76478.33
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 765423.8 765423.8
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 76793.59 76793.59
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7685.29 7685.292
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 77.64 77.64201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 77.71 77.71201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 772069.5 772069.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 774238.9 774238.9
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 774369 774369
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 77550.99 77550.99
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7791.71 7791.712
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7812.95 7812.952
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 781552.9 781552.9
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 783003.1 783003.1
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 78374.89 78374.89
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7841.91 7841.912
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 78549.21 78549.21
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 78681.93 78681.93
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 787438.2 787438.2
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 78982451 78982451
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 79.55 79.55201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 79048.52 79048.52
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 791540.4 791540.4
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 794464.1 794464.1
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 7971.54 7971.542
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 798.5 798.5201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 799.05 799.052
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 800336.8 800336.8
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8003506 8003506
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 80087.2 80087.22
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 803.7 803.7201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8030.81 8030.812
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 807.98 807.982
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 81037.97 81037.97
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 810690.2 810690.2
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8133.69 8133.692
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8147.73 8147.732
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 815.59 815.592
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 81543.97 81543.97
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 818.19 818.192
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8182.64 8182.642
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8183.16 8183.162
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8188662 8188662
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 820637.6 820637.6
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 82369.11 82369.11
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 82382.4 82382.42
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 830029.2 830029.2
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 830989.9 830989.9
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 832.8 832.8201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 832939.1 832939.1
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 83415.58 83415.58
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 837.72 837.722
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8381.37 8381.372
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 83869.24 83869.24
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8387.26 8387.262
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 83959.04 83959.04
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8413.22 8413.222
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 844.97 844.972
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8456.42 8456.422
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8472.97 8472.972
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 849058.5 849058.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 85.92 85.92201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 851028.5 851028.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 852.8 852.8201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 85220.16 85220.16
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 85279.81 85279.81
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 85280.11 85280.11
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 85387.11 85387.11
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 854.1 854.1201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 854.3 854.3201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 85401.54 85401.54
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8.61E+08 8.61E+08
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 86220.17 86220.17
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8643.39 8643.392
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 87.99 87.99201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 870.03 870.032
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 872.5 872.5201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 87263.84 87263.84
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8763.63 8763.632
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 87879.1 87879.12
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 880.9 880.9201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8836.15 8836.152
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 884145 884145
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 88487.42 88487.42
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 885388.5 885388.5
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 88726.01 88726.01
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8888.83 8888.832
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 894734.4 894734.4
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8958.65 8958.652
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 897.99 897.992
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 898092.2 898092.2
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 8983.52 8983.522
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 898591.8 898591.8
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9061.83 9061.832
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 91441.88 91441.88
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 917.61 917.612
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 919748.4 919748.4
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 921807.9 921807.9
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 923.25 923.252
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9248.39 9248.392
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 93280.4 93280.42
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9363.59 9363.592
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9376.75 9376.752
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 940123.6 940123.6
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 94177.24 94177.24
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 941988.1 941988.1
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 943757.3 943757.3
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9483703 9483703
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 94988.1 94988.12
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 95.4 95.42009
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9504.43 9504.432
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9522.98 9522.982
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 953330.2 953330.2
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 96.48 96.48201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 960498.7 960498.7
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9615064 9615064
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9623188 9623188
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9636.81 9636.812
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 96519.34 96519.34
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9653.14 9653.142
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 97.61 97.61201
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9708.34 9708.342
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 97158.25 97158.25
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 97405.8 97405.82
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 975.79 975.792
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 97827.5 97827.52
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 980372.4 980372.4
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 983856.6 983856.6
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 985.63 985.632
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 987553.4 987553.4
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 987615.4 987615.4
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 988.82 988.822
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 98905.64 98905.64
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9894.43 9894.432
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 9902.73 9902.732
+SI39TE 9. Income bAeLfoLre tax All banks USA United States 2009 2009 999.83 999.832
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 22325.97 22325.97
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 22341.2 22341.22
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 22408.27 22408.27
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 224487.5 224487.5
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2250411 2250411
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2254973 2254973
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 22552827 22552827
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 22635.7 22635.72
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2264.51 2264.512
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 22652.15 22652.15
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2266.17 2266.172
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 226949.1 226949.1
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 227.76 227.762
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 22735.9 22735.92
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 227567.1 227567.1
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2279.61 2279.612
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 22820.9 22820.92
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2288.56 2288.562
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 229.52 229.522
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 229416.1 229416.1
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 22942.38 22942.38
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2295.31 2295.312
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2302.87 2302.872
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 230976.8 230976.8
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23117.34 23117.34
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 231319.4 231319.4
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23137.9 23137.92
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 231386.5 231386.5
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2314.45 2314.452
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 231528.5 231528.5
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2326.16 2326.162
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 232783.3 232783.3
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 233.12 233.122
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 233.39 233.392
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23326.19 23326.19
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23332.2 23332.22
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2334.75 2334.752
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2334.76 2334.762
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 234.55 234.552
+IN13TD 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2350424 2350424
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23521.58 23521.58
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23543.8 23543.82
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 235555.9 235555.9
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23597.4 23597.42
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23643.67 23643.67
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23731.9 23731.92
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23733.01 23733.01
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 237552.8 237552.8
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2377.59 2377.592
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 238.11 238.112
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23808.1 23808.12
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23944.6 23944.62
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23949.64 23949.64
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2397906 2397906
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 23983.6 23983.62
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 240153.2 240153.2
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24016164 24016164
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 240287.8 240287.8
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24078.37 24078.37
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 241375.1 241375.1
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 241632.2 241632.2
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24175.2 24175.22
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2427.17 2427.172
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24277.5 24277.52
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24364.3 24364.32
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24368.1 24368.12
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 244132.1 244132.1
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 245044.5 245044.5
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24515.02 24515.02
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2458.77 2458.772
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 246121.6 246121.6
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24675.8 24675.82
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24678.14 24678.14
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 246841.5 246841.5
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24771.5 24771.52
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2482.31 2482.312
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 248203.7 248203.7
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24832.34 24832.34
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24864.5 24864.52
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24866.99 24866.99
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24893.5 24893.52
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 24970.24 24970.24
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25051.95 25051.95
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2506122 2506122
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25105.1 25105.12
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 252286.8 252286.8
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2529327 2529327
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25349.67 25349.67
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25360.28 25360.28
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2537.58 2537.582
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25397.56 25397.56
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 254807.8 254807.8
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25489.05 25489.05
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 255.54 255.542
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25505.51 25505.51
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2553.96 2553.962
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25567.75 25567.75
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 256028.5 256028.5
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 256808.6 256808.6
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 258.3 258.3201
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25810.37 25810.37
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 258408.8 258408.8
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25874.01 25874.01
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 25909.5 25909.52
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2591.42 2591.422
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 259155.4 259155.4
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2592134 2592134
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2604.56 2604.562
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 26127.1 26127.12
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 26158.1 26158.12
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2626.38 2626.382
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2628.16 2628.162
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 26303.6 26303.62
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 263409.9 263409.9
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 26365.38 26365.38
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 263779.6 263779.6
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 263829.8 263829.8
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 26418.5 26418.52
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2655.23 2655.232
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2657.25 2657.252
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 266.1 266.1201
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 266.65 266.652
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 26643.15 26643.15
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 267.2 267.2201
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 26752.55 26752.55
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 267544.2 267544.2
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2677.17 2677.172
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 26816.6 26816.62
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2691215 2691215
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 269123.7 269123.7
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 269391.4 269391.4
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2696.31 2696.312
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 270570.2 270570.2
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27065.86 27065.86
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27083.43 27083.43
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2712.31 2712.312
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2717232 2717232
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 273702.6 273702.6
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 274.94 274.942
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27400.62 27400.62
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 275444.9 275444.9
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27601.36 27601.36
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2766859 2766859
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27760.14 27760.14
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27807966 27807966
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27841.31 27841.31
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27882.77 27882.77
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27930.6 27930.62
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2796.89 2796.892
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 27993.31 27993.31
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28.73 28.73201
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2803.75 2803.752
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28057.09 28057.09
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 280727.3 280727.3
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28097.85 28097.85
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2810175 2810175
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28111.65 28111.65
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28111.65 28111.65
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28138.65 28138.65
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2816.22 2816.222
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 281719.7 281719.7
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28180.81 28180.81
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28232.25 28232.25
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 282456 282456
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 282628.3 282628.3
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 282905.8 282905.8
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28319.6 28319.62
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2832354 2832354
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28326.37 28326.37
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28393.44 28393.44
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 284991.5 284991.5
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2857107 2857107
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28661.9 28661.92
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28763.64 28763.64
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 288.28 288.282
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28826.89 28826.89
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28913.35 28913.35
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 289380.6 289380.6
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2894.97 2894.972
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 289441.7 289441.7
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 28976.24 28976.24
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2902.42 2902.422
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 29040.1 29040.12
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2927.46 2927.462
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 29293.53 29293.53
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 293653.2 293653.2
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 293958.1 293958.1
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 29496.1 29496.12
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 29531.92 29531.92
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 29675.27 29675.27
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 29676.6 29676.62
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 296803.1 296803.1
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 29704.9 29704.92
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 29725.96 29725.96
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 29795.61 29795.61
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2986.32 2986.322
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 2998.57 2998.572
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 3.81 3.812009
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 30071025 30071025
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 30089.5 30089.52
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 301369.6 301369.6
+SI37TE 8.a. ProvisioAnLsL on loansAll banks SWE Switzerland 2009 2009 30199.98 30199.98
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 303.7 303.7201
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 304211.4 304211.4
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 30452.76 30452.76
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3045983 3045983
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 30680.5 30680.52
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 30816.37 30816.37
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 30902.74 30902.74
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 31.14 31.14201
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 311176.1 311176.1
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3113.33 3113.332
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 311827.7 311827.7
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 312269.4 312269.4
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 312676.6 312676.6
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3134.59 3134.592
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 31534.08 31534.08
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 31542.36 31542.36
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3159.93 3159.932
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3166.16 3166.162
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 316634.1 316634.1
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 317.08 317.082
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 317.1 317.1201
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 317530.1 317530.1
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 317822.2 317822.2
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 319585.7 319585.7
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 32045.6 32045.62
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 32056.89 32056.89
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 321036.5 321036.5
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 321856.3 321856.3
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 324457.4 324457.4
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 32470.43 32470.43
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3248.61 3248.612
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 325141.8 325141.8
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 32551.6 32551.62
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 32559.01 32559.01
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 326981.4 326981.4
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 32742.4 32742.42
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 327480.3 327480.3
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 32879.05 32879.05
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3294671 3294671
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 32986.96 32986.96
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33.7 33.72009
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33065.3 33065.32
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33099.13 33099.13
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3312.53 3312.532
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 332159.9 332159.9
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33228.18 33228.18
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33230.18 33230.18
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33264.14 33264.14
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 333270.3 333270.3
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 334327.1 334327.1
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33508.6 33508.62
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 335298.2 335298.2
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 336.3 336.3201
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3367587 3367587
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33684.09 33684.09
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 336998.3 336998.3
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33704.79 33704.79
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33758.64 33758.64
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33763.84 33763.84
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3379085 3379085
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33827.7 33827.72
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 33912.39 33912.39
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 339674.7 339674.7
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 34066.94 34066.94
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3417149 3417149
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3418.41 3418.412
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3424084 3424084
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3436.68 3436.682
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 343997.6 343997.6
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3440547 3440547
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 34556.91 34556.91
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 345765.3 345765.3
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3458.67 3458.672
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 34602.7 34602.72
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3470583 3470583
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 349226.4 349226.4
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 35096.11 35096.11
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 35259.73 35259.73
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3527.36 3527.362
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3531.63 3531.632
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 355.72 355.722
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 35834.65 35834.65
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 358711.3 358711.3
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 35948.26 35948.26
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 35991.76 35991.76
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 360055.5 360055.5
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 36015.21 36015.21
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 360381.3 360381.3
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3627.65 3627.652
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 36381.4 36381.42
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 364028.3 364028.3
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3659.84 3659.842
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 36634.2 36634.22
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 366884.5 366884.5
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 367.07 367.072
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 367129.6 367129.6
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 368.5 368.5201
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 36812.1 36812.12
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 36856.53 36856.53
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 37.03 37.03201
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 370129.8 370129.8
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 370172.9 370172.9
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 370821.9 370821.9
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 372322.5 372322.5
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 37263.3 37263.32
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 374580.8 374580.8
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 37503.68 37503.68
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3751.86 3751.862
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 37539.01 37539.01
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 37588.68 37588.68
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 37591.4 37591.42
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 37644.5 37644.52
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3777.76 3777.762
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3793.24 3793.242
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 37954.01 37954.01
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 379931.9 379931.9
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 38008.5 38008.52
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 38072.01 38072.01
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3810.97 3810.972
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3811086 3811086
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 381763.7 381763.7
+SI37TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 38253.35 38253.35
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3833494 3833494
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 38456.1 38456.12
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 387.79 387.792
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 388507.1 388507.1
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 38899.1 38899.12
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3901.56 3901.562
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 3911.46 3911.462
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 39139.2 39139.22
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 39139.2 39139.22
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 392.12 392.122
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 393.11 393.112
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 394.54 394.542
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 397.9 397.9201
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 397.9 397.9201
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 39701.82 39701.82
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 39715.38 39715.38
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 39793.8 39793.82
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 39899186 39899186
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 399093.9 399093.9
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 400.33 400.332
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 400395.3 400395.3
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 40104539 40104539
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 402612.4 402612.4
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 403.77 403.772
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 403.9 403.9201
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 403323 403323
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 40412.6 40412.62
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 405.6 405.6201
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 405416.2 405416.2
+SI38TE 8.b. ProvisioAnLsL on secuAriltli ebsanks SWE Switzerland 2009 2009 4059540 4059540
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 40663.2 40663.22
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 40791.9 40791.92
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 408480.2 408480.2
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 409.3 409.3201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 410.73 410.732
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 41152.7 41152.72
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 41231.5 41231.52
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4129.66 4129.662
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 41417.85 41417.85
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 41502.1 41502.12
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 41548.83 41548.83
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 415974.3 415974.3
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 41599.2 41599.22
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 42.71 42.71201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4202867 4202867
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 422.6 422.6201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 42354.3 42354.32
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 426162.8 426162.8
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 42621.09 42621.09
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 42652.2 42652.22
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 42718.7 42718.72
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 428.8 428.8201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 428.8 428.8201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 42846.18 42846.18
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 42981.09 42981.09
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 43000.03 43000.03
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 430617.7 430617.7
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 43165.52 43165.52
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 43324.9 43324.92
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4349394 4349394
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 43562.52 43562.52
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 435899.5 435899.5
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4367.21 4367.212
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 439.65 439.652
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 44173.56 44173.56
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 44178.2 44178.22
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 44201.8 44201.82
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 442681.5 442681.5
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 442709.1 442709.1
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 44689.7 44689.72
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 447388.7 447388.7
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 448.18 448.182
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 44876.26 44876.26
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 450.18 450.182
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4504.48 4504.482
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 45050.64 45050.64
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4510.36 4510.362
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 451478.6 451478.6
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 45254.9 45254.92
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 45299.7 45299.72
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 453.26 453.262
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 45424.01 45424.01
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 45522.61 45522.61
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 45645.5 45645.52
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 45710.42 45710.42
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4578.84 4578.842
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 458171.8 458171.8
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 45829.12 45829.12
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 459067.1 459067.1
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 45934.8 45934.82
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 46050547 46050547
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 462242.5 462242.5
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4632164 4632164
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 463789.9 463789.9
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 46442.23 46442.23
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4649.56 4649.562
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 46716.75 46716.75
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 46719.5 46719.52
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 46754.55 46754.55
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 46773.77 46773.77
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 468445.6 468445.6
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4698.97 4698.972
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4716.98 4716.982
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4723.64 4723.642
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 474.94 474.942
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4767324 4767324
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 477107.4 477107.4
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 47750151 47750151
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 477740.5 477740.5
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 47877.49 47877.49
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48.5 48.52009
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48073.8 48073.82
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 481541 481541
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4816.96 4816.962
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48202.1 48202.12
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48300.6 48300.62
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48339.67 48339.67
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4834.99 4834.992
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4842308 4842308
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48429.4 48429.42
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 485.09 485.092
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 486254.7 486254.7
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 486374.4 486374.4
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48651.21 48651.21
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48681.6 48681.62
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48718.19 48718.19
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 487446.2 487446.2
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 487610.3 487610.3
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 487816.2 487816.2
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 488215 488215
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48853.82 48853.82
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 48929.82 48929.82
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 49.88 49.88201
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4903.28 4903.282
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 492028.9 492028.9
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 49243.77 49243.77
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4927.36 4927.362
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4933318 4933318
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 493582.4 493582.4
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 494695.1 494695.1
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4948.96 4948.962
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 495.32 495.322
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 495251.2 495251.2
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 49566.9 49566.92
+SI38TE 8.c. Other nAeLt LprovisionAsll banks SWE Switzerland 2009 2009 4973.15 4973.152
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 74.317.635.974.413E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 76.589.932.170.616E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 77.564.695.174.736E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 80.836.801.683.088E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 82.195.758.485.252E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 83.489.530.587.375E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 83.759.312.588.378E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 83.847.391.283.318E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 84.843.886.186.428E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 88.096.490.083.861E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 93.296.628.298.393E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 93.594.304.099.366E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 98.895.360.296.879E+14
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 100.341.88160.20435418862452008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 104.327.19100.34632271903622008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 111.842.90161.01587429060572008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 117.558.49131.57758584935782008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 129.307.78182.59238077885282008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 138.201.91113.78329019117392008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 144.527.39154.84259273958292008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 175.780.41177.05874804170842008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 184.534.17148.14355341741352008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 190.475.88139.60042758836022008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 210.850.13241.20484501342442008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 213.133.14291.63714331496742008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 213.967.78241.43897677844872008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 222.566.94212.02151669410112008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 253.864.13215.53582641315522008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 256.922.86275.96198228679182008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 257.780.30295.77572803097522008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 653.596.51625.73252965127222008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 658.778.58695.68374785896342008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 678.345.30677.78434453077442008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 703.310.03780.33736100383762008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 741.081.52744.71902815247922008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 764.469.68706.64749696806792008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 813.107.41861.53813074165832008
+IN11TD 7. Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 857.794.21815.17771942111712008

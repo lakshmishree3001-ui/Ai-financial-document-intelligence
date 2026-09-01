@@ -1,0 +1,13 @@
+filename,file_type,pages_or_rows,extraction_method,word_or_row_count,status
+annual_report.csv,CSV,1059,direct_csv_read,1059,SUCCESS
+annual_report_novatech_fy2026.pdf,PDF,1,pdf_text_extraction,133,SUCCESS
+balance_sheet_f.pdf,PDF,20,pdf_text_extraction,11226,SUCCESS
+balance_sheet_novatech_fy2026.pdf,PDF,1,pdf_text_extraction,104,SUCCESS
+bank_statement.pdf,PDF,3,pdf_text_extraction,741,SUCCESS
+bank_statement_novatech_may2026.pdf,PDF,1,pdf_text_extraction,80,SUCCESS
+cash_flow_novatech_fy2026.pdf,PDF,1,pdf_text_extraction,117,SUCCESS
+income_statement.pdf,.PDF,-,-,-,FAILED: [WinError 2] The system cannot find the file specified
+income_statement_novatech_fy2026.pdf,PDF,1,pdf_text_extraction,84,SUCCESS
+invoice_brightedge_inv_2026_00457.pdf,PDF,1,pdf_text_extraction,71,SUCCESS
+invoice_f.pdf,PDF,30,pdf_text_extraction,7050,SUCCESS
+scanned_invoice_brightedge.pdf,.PDF,-,-,-,FAILED: [WinError 2] The system cannot find the file specified

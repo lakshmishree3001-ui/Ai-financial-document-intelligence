@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What was the company's revenue in FY2026?",
+    "answer": "Revenue ................................. Rs. 850,00,00,000",
+    "source_document": "income_statement_novatech_fy2026.txt",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "income_statement_novatech_fy2026.txt::chunk1",
+        "document": "income_statement_novatech_fy2026.txt",
+        "score": 0.2382,
+        "text": "Revenue ................................. Rs. 850,00,00,000 Cost of Goods Sold ....................... Rs. 510,00,00,000 Gross Profit ............................. Rs. 340,00,00,000"
+      },
+      {
+        "chunk_id": "annual_report_novatech_fy2026.txt::chunk0",
+        "document": "annual_report_novatech_fy2026.txt",
+        "score": 0.1796,
+        "text": "NovaTech Industries Ltd. - Annual Report Excerpt NovaTech Industries Ltd. - Annual Report FY2026 (Excerpt) Chairman's Message: FY2026 was a landmark year for NovaTech Industries. The company generated revenue of Rs. 850 crore, up 18% year-on-year, driven by strong demand in our core manufacturing and digital services segments."
+      },
+      {
+        "chunk_id": "income_statement_novatech_fy2026.txt::chunk0",
+        "document": "income_statement_novatech_fy2026.txt",
+        "score": 0.1762,
+        "text": "NovaTech Industries Ltd. - Income Statement Company: NovaTech Industries Ltd. Statement: Income Statement for FY2026"
+      }
+    ]
+  },
+  {
+    "question": "What was the net profit?",
+    "answer": "- Net profit grew 12% to Rs. 105 crore",
+    "source_document": "annual_report_novatech_fy2026.txt",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "income_statement_novatech_fy2026.txt::chunk1",
+        "document": "income_statement_novatech_fy2026.txt",
+        "score": 0.3165,
+        "text": "Revenue ................................. Rs. 850,00,00,000 Cost of Goods Sold ....................... Rs. 510,00,00,000 Gross Profit ............................. Rs. 340,00,00,000"
+      },
+      {
+        "chunk_id": "annual_report_novatech_fy2026.txt::chunk2",
+        "document": "annual_report_novatech_fy2026.txt",
+        "score": 0.3026,
+        "text": "Business Highlights: - Net profit grew 12% to Rs. 105 crore - Expanded into two new international markets - Total debt increased 7% to fund capacity expansion"
+      },
+      {
+        "chunk_id": "balance_sheet_f.txt::chunk293",
+        "document": "balance_sheet_f.txt",
+        "score": 0.2267,
+        "text": "Net incomAeLL before prAolvl ibsaionnkss SVK Sweden 2008 2008 857.794.21815.17771942111712008"
+      }
+    ]
+  },
+  {
+    "question": "What is the total debt?",
+    "answer": "- Total debt increased 7% to fund capacity expansion",
+    "source_document": "annual_report_novatech_fy2026.txt",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "annual_report_novatech_fy2026.txt::chunk2",
+        "document": "annual_report_novatech_fy2026.txt",
+        "score": 0.3267,
+        "text": "Business Highlights: - Net profit grew 12% to Rs. 105 crore - Expanded into two new international markets - Total debt increased 7% to fund capacity expansion"
+      },
+      {
+        "chunk_id": "balance_sheet_novatech_fy2026.txt::chunk7",
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "score": 0.3134,
+        "text": "Current Liabilities: Retained Earnings ................... Rs. 74,50,00,000 Total Equity ............................ Rs. 134,50,00,000 Total Liabilities and Equity ............ Rs. 220,50,00,000"
+      },
+      {
+        "chunk_id": "invoice_brightedge_inv_2026_00457.txt::chunk4",
+        "document": "invoice_brightedge_inv_2026_00457.txt",
+        "score": 0.311,
+        "text": "Total Amount Due ........................................... Rs. 5,78,790 Payment Due Date: 12-Jul-2026"
+      }
+    ]
+  },
+  {
+    "question": "What are the main risks the company faces?",
+    "answer": "- Foreign exchange volatility",
+    "source_document": "annual_report_novatech_fy2026.txt",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "annual_report_novatech_fy2026.txt::chunk3",
+        "document": "annual_report_novatech_fy2026.txt",
+        "score": 0.2166,
+        "text": "Business Highlights: Risk Factors: - Foreign exchange volatility - Rising raw material costs"
+      },
+      {
+        "chunk_id": "income_statement_novatech_fy2026.txt::chunk0",
+        "document": "income_statement_novatech_fy2026.txt",
+        "score": 0.1629,
+        "text": "NovaTech Industries Ltd. - Income Statement Company: NovaTech Industries Ltd. Statement: Income Statement for FY2026"
+      },
+      {
+        "chunk_id": "annual_report_novatech_fy2026.txt::chunk4",
+        "document": "annual_report_novatech_fy2026.txt",
+        "score": 0.1558,
+        "text": "Risk Factors: - Increasing competition in the digital services segment Outlook: The management expects continued double-digit revenue growth in FY2027, supported by new product launches and capacity expansion."
+      }
+    ]
+  },
+  {
+    "question": "What is the earnings per share (EPS)?",
+    "answer": "Earnings Per Share (EPS) ................... Rs. 21.00",
+    "source_document": "income_statement_novatech_fy2026.txt",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "income_statement_novatech_fy2026.txt::chunk5",
+        "document": "income_statement_novatech_fy2026.txt",
+        "score": 0.8145,
+        "text": "Operating Expenses: Earnings Per Share (EPS) ................... Rs. 21.00"
+      },
+      {
+        "chunk_id": "balance_sheet_novatech_fy2026.txt::chunk6",
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "score": 0.2016,
+        "text": "Current Liabilities: Total Liabilities ....................... Rs. 86,00,00,000 EQUITY Share Capital ....................... Rs. 60,00,00,000"
+      },
+      {
+        "chunk_id": "balance_sheet_novatech_fy2026.txt::chunk7",
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "score": 0.1558,
+        "text": "Current Liabilities: Retained Earnings ................... Rs. 74,50,00,000 Total Equity ............................ Rs. 134,50,00,000 Total Liabilities and Equity ............ Rs. 220,50,00,000"
+      }
+    ]
+  },
+  {
+    "question": "What was the total assets and total equity?",
+    "answer": "Total Liabilities and Equity ............ Rs. 220,50,00,000",
+    "source_document": "balance_sheet_novatech_fy2026.txt",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "balance_sheet_novatech_fy2026.txt::chunk7",
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "score": 0.62,
+        "text": "Current Liabilities: Retained Earnings ................... Rs. 74,50,00,000 Total Equity ............................ Rs. 134,50,00,000 Total Liabilities and Equity ............ Rs. 220,50,00,000"
+      },
+      {
+        "chunk_id": "balance_sheet_novatech_fy2026.txt::chunk3",
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "score": 0.5007,
+        "text": "Current Assets: Property, Plant & Equipment ....... Rs. 120,00,00,000 Intangible Assets .................. Rs. 15,00,00,000 Total Assets ........................... Rs. 220,50,00,000"
+      },
+      {
+        "chunk_id": "balance_sheet_novatech_fy2026.txt::chunk6",
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "score": 0.4012,
+        "text": "Current Liabilities: Total Liabilities ....................... Rs. 86,00,00,000 EQUITY Share Capital ....................... Rs. 60,00,00,000"
+      }
+    ]
+  },
+  {
+    "question": "How much did the company pay in dividends?",
+    "answer": "Proceeds from Long-term Debt .......... Rs. 15,00,00,000",
+    "source_document": "cash_flow_novatech_fy2026.txt",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "cash_flow_novatech_fy2026.txt::chunk4",
+        "document": "cash_flow_novatech_fy2026.txt",
+        "score": 0.1865,
+        "text": "Cash Flow from Financing Activities: Proceeds from Long-term Debt .......... Rs. 15,00,00,000 Dividends Paid ........................ Rs. (20,00,00,000) Net Cash used in Financing Activities ... Rs. (5,00,00,000)"
+      },
+      {
+        "chunk_id": "income_statement_novatech_fy2026.txt::chunk0",
+        "document": "income_statement_novatech_fy2026.txt",
+        "score": 0.1577,
+        "text": "NovaTech Industries Ltd. - Income Statement Company: NovaTech Industries Ltd. Statement: Income Statement for FY2026"
+      },
+      {
+        "chunk_id": "balance_sheet_novatech_fy2026.txt::chunk0",
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "score": 0.1503,
+        "text": "NovaTech Industries Ltd. - Balance Sheet Company: NovaTech Industries Ltd. Statement: Balance Sheet as of 31 March 2026"
+      }
+    ]
+  },
+  {
+    "question": "What is the closing bank balance for May 2026?",
+    "answer": "31-May-2026 Closing Balance Rs. 25,34,21,210",
+    "source_document": "bank_statement_novatech_may2026.txt",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "bank_statement_novatech_may2026.txt::chunk4",
+        "document": "bank_statement_novatech_may2026.txt",
+        "score": 0.9689,
+        "text": "31-May-2026 Closing Balance Rs. 25,34,21,210"
+      },
+      {
+        "chunk_id": "balance_sheet_novatech_fy2026.txt::chunk0",
+        "document": "balance_sheet_novatech_fy2026.txt",
+        "score": 0.2779,
+        "text": "NovaTech Industries Ltd. - Balance Sheet Company: NovaTech Industries Ltd. Statement: Balance Sheet as of 31 March 2026"
+      },
+      {
+        "chunk_id": "bank_statement_novatech_may2026.txt::chunk1",
+        "document": "bank_statement_novatech_may2026.txt",
+        "score": 0.1916,
+        "text": "Account Number: XXXXXXXX4521 Statement Period: 01-May-2026 to 31-May-2026 Date Description Debit Credit Balance"
+      }
+    ]
+  }
+]

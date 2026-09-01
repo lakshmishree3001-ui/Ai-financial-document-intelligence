@@ -1,0 +1,42 @@
+{
+  "filename": "balance_sheet_novatech_fy2026.txt",
+  "document_year": "2026",
+  "metrics_found": 5,
+  "metrics": [
+    {
+      "metric": "Assets",
+      "label_matched": "Total Assets",
+      "value": "Rs. 220,50,00,000",
+      "year": "2026",
+      "source_line": "Total Assets ........................... Rs. 220,50,00,000"
+    },
+    {
+      "metric": "Debt",
+      "label_matched": "Short-term Borrowings",
+      "value": "Rs. 12,00,00,000",
+      "year": "2026",
+      "source_line": "Short-term Borrowings .............. Rs. 12,00,00,000"
+    },
+    {
+      "metric": "Debt",
+      "label_matched": "Long-term Debt",
+      "value": "Rs. 55,00,00,000",
+      "year": "2026",
+      "source_line": "Long-term Debt ...................... Rs. 55,00,00,000"
+    },
+    {
+      "metric": "Liabilities",
+      "label_matched": "Total Liabilities",
+      "value": "Rs. 86,00,00,000",
+      "year": "2026",
+      "source_line": "Total Liabilities ....................... Rs. 86,00,00,000"
+    },
+    {
+      "metric": "Equity",
+      "label_matched": "Total Equity",
+      "value": "Rs. 134,50,00,000",
+      "year": "2026",
+      "source_line": "Total Equity ............................ Rs. 134,50,00,000"
+    }
+  ]
+}

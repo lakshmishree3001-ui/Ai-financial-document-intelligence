@@ -1,0 +1,13 @@
+NovaTech Industries Ltd. - Bank Statement
+Bank Statement
+Account Holder: NovaTech Industries Ltd.
+Account Number: XXXXXXXX4521
+Statement Period: 01-May-2026 to 31-May-2026
+Date Description Debit Credit Balance
+01-May-2026 Opening Balance Rs. 22,00,00,000
+04-May-2026 Vendor Payment - BrightEdge Rs. 5,78,790 Rs. 21,94,21,210
+10-May-2026 Customer Receipt - Alpha Corp Rs. 3,50,00,000 Rs. 25,44,21,210
+15-May-2026 Salary Disbursement Rs. 1,20,00,000 Rs. 24,24,21,210
+22-May-2026 Loan Interest Payment Rs. 1,00,00,000 Rs. 23,24,21,210
+28-May-2026 Customer Receipt - Beta Ltd Rs. 2,10,00,000 Rs. 25,34,21,210
+31-May-2026 Closing Balance Rs. 25,34,21,210

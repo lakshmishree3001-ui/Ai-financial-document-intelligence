@@ -1,0 +1,6 @@
+algorithm,training_accuracy,loocv_accuracy,notes
+logistic_regression,0.917,0.167,Trained on full 12-doc dataset; LOOCV = generalization estimate
+random_forest,1.000,0.333,Trained on full 12-doc dataset; LOOCV = generalization estimate
+svm,0.917,0.167,Trained on full 12-doc dataset; LOOCV = generalization estimate
+xgboost,N/A,N/A,NOT RUN - Package not installed and no internet access to install it in this environment.
+bert_transformers,N/A,N/A,"NOT RUN - Requires downloading pretrained model weights (e.g. HuggingFace hub), which needs internet access not available here."

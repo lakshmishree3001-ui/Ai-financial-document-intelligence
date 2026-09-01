@@ -1,0 +1,25 @@
+{
+  "bank_transactions": {
+    "total_debit_transactions": 76,
+    "flagged_transactions": 6,
+    "algorithms_used": [
+      "statistical_zscore",
+      "isolation_forest",
+      "pca_reconstruction_error"
+    ]
+  },
+  "inflation_panel": {
+    "total_records": 1059,
+    "flagged_records": 50,
+    "algorithms_used": [
+      "statistical_zscore",
+      "isolation_forest"
+    ]
+  },
+  "brief_example_reproduction": {
+    "previous_month_expense": 1000000,
+    "current_month_expense": 3800000,
+    "pct_change": 280.0,
+    "ai_alert": "Unusual expense increase detected."
+  }
+}

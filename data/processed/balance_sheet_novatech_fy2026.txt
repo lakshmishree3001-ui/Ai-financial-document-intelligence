@@ -1,0 +1,24 @@
+NovaTech Industries Ltd. - Balance Sheet
+Company: NovaTech Industries Ltd.
+Statement: Balance Sheet as of 31 March 2026
+ASSETS
+Current Assets:
+Cash and Cash Equivalents ......... Rs. 45,00,00,000
+Accounts Receivable ............... Rs. 22,50,00,000
+Inventory .......................... Rs. 18,00,00,000
+Non-Current Assets:
+Property, Plant & Equipment ....... Rs. 120,00,00,000
+Intangible Assets .................. Rs. 15,00,00,000
+Total Assets ........................... Rs. 220,50,00,000
+LIABILITIES
+Current Liabilities:
+Accounts Payable ................... Rs. 19,00,00,000
+Short-term Borrowings .............. Rs. 12,00,00,000
+Non-Current Liabilities:
+Long-term Debt ...................... Rs. 55,00,00,000
+Total Liabilities ....................... Rs. 86,00,00,000
+EQUITY
+Share Capital ....................... Rs. 60,00,00,000
+Retained Earnings ................... Rs. 74,50,00,000
+Total Equity ............................ Rs. 134,50,00,000
+Total Liabilities and Equity ............ Rs. 220,50,00,000

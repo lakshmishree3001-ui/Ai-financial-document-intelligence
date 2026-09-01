@@ -1,0 +1,15 @@
+Best model: random_forest
+
+Leave-One-Out Cross-Validation Classification Report
+                     precision    recall  f1-score   support
+
+      Annual Report       0.22      1.00      0.36         2
+      Balance Sheet       0.00      0.00      0.00         2
+     Bank Statement       0.00      0.00      0.00         2
+Cash Flow Statement       0.00      0.00      0.00         1
+   Income Statement       0.00      0.00      0.00         2
+            Invoice       0.67      0.67      0.67         3
+
+           accuracy                           0.33        12
+          macro avg       0.15      0.28      0.17        12
+       weighted avg       0.20      0.33      0.23        12

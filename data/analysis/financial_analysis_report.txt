@@ -1,0 +1,26 @@
+FINANCIAL ANALYSIS REPORT
+Company: NovaTech Industries Ltd.
+Period : FY2026
+
+-- PROFITABILITY --
+Revenue: Rs. 8,500,000,000 (YoY +18.0%)
+Net Profit: Rs. 1,050,000,000 (YoY +12.0%)
+Profit Margin: 12.35%
+
+-- LIQUIDITY --
+Current Assets: Rs. 855,000,000
+Current Liabilities: Rs. 310,000,000
+Current Ratio: 2.76
+Cash Position (Cash & Cash Equivalents): Rs. 450,000,000
+Cash at End of Year (per Cash Flow Statement): Rs. 900,000,000
+
+-- LEVERAGE --
+Total Debt: Rs. 670,000,000 (YoY +7.0%)
+Total Equity: Rs. 1,345,000,000
+Debt-to-Equity Ratio: 0.5
+
+-- EXAMPLE-STYLE INSIGHT SUMMARY --
+Revenue increased by 18%.
+Net profit increased by 12%.
+Debt increased by 7%.
+Overall financial performance: Positive

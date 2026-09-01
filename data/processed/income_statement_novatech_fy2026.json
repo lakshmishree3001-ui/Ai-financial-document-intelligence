@@ -1,0 +1,12 @@
+{
+  "filename": "income_statement_novatech_fy2026.pdf",
+  "file_type": "PDF",
+  "num_pages": 1,
+  "blank_pages": 0,
+  "extraction_method": "pdf_text_extraction",
+  "raw_char_count": 848,
+  "cleaned_char_count": 848,
+  "word_count": 84,
+  "processed_on": "2026-08-26 22:08:50",
+  "text": "NovaTech Industries Ltd. - Income Statement\nCompany: NovaTech Industries Ltd.\nStatement: Income Statement for FY2026\nRevenue ................................. Rs. 850,00,00,000\nCost of Goods Sold ....................... Rs. 510,00,00,000\nGross Profit ............................. Rs. 340,00,00,000\nOperating Expenses:\nSelling & Marketing ................. Rs. 90,00,00,000\nGeneral & Administrative ............ Rs. 60,00,00,000\nResearch & Development ............... Rs. 45,00,00,000\nTotal Operating Expenses ................. Rs. 195,00,00,000\nOperating Profit .......................... Rs. 145,00,00,000\nInterest Expense .......................... Rs. 12,00,00,000\nTax Expense ................................ Rs. 28,00,00,000\nNet Income ................................. Rs. 105,00,00,000\nEarnings Per Share (EPS) ................... Rs. 21.00"
+}

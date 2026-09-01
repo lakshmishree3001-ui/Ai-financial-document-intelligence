@@ -1,0 +1,14 @@
+BrightEdge Office Supplies - Invoice
+INVOICE
+Invoice No: INV-2026-00457
+Invoice Date: 12-Jun-2026
+Vendor: BrightEdge Office Supplies Pvt. Ltd.
+Billed To: NovaTech Industries Ltd.
+Description Qty Unit Price Amount
+Office Chairs (Ergo Pro) 25 Rs. 8,500 Rs. 2,12,500
+Standing Desks 10 Rs. 15,000 Rs. 1,50,000
+Laptop Docking Stations 40 Rs. 3,200 Rs. 1,28,000
+Subtotal ................................................. Rs. 4,90,500
+GST (18%) ................................................. Rs. 88,290
+Total Amount Due ........................................... Rs. 5,78,790
+Payment Due Date: 12-Jul-2026

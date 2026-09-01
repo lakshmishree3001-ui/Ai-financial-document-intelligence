@@ -1,0 +1,35 @@
+{
+  "filename": "cash_flow_novatech_fy2026.txt",
+  "document_year": "FY2026",
+  "metrics_found": 4,
+  "metrics": [
+    {
+      "metric": "Net Income",
+      "label_matched": "Net Income",
+      "value": "Rs. 105,00,00,000",
+      "year": "FY2026",
+      "source_line": "Net Income ........................... Rs. 105,00,00,000"
+    },
+    {
+      "metric": "Cash Flow",
+      "label_matched": "Net Cash from Operating Activities",
+      "value": "Rs. 113,00,00,000",
+      "year": "FY2026",
+      "source_line": "Net Cash from Operating Activities ..... Rs. 113,00,00,000"
+    },
+    {
+      "metric": "Debt",
+      "label_matched": "Long-term Debt",
+      "value": "Rs. 15,00,00,000",
+      "year": "FY2026",
+      "source_line": "Proceeds from Long-term Debt .......... Rs. 15,00,00,000"
+    },
+    {
+      "metric": "Cash Flow",
+      "label_matched": "Net Increase in Cash",
+      "value": "Rs. 68,00,00,000",
+      "year": "FY2026",
+      "source_line": "Net Increase in Cash ..................... Rs. 68,00,00,000"
+    }
+  ]
+}
