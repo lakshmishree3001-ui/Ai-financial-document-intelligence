@@ -1,7 +1,24 @@
+# ── Web framework ─────────────────────────────────────────
 fastapi>=0.110
 uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.0
+
+# ── Auth (required by app/auth.py — no try/except guard) ──
+PyJWT>=2.8
+argon2-cffi>=23.1
+
+# ── Data / ML (required by app/core.py and app/pipeline.py) ─
+numpy>=1.26
 pandas>=2.0
 scikit-learn>=1.3
 joblib>=1.3
-python-multipart>=0.0.9
-pydantic>=2.0
+
+# ── PDF & OCR processing ───────────────────────────────────
+pdfplumber>=0.10
+pypdf>=3.0
+pytesseract>=0.3.10
+pillow>=10.0
+
+# ── Utilities ─────────────────────────────────────────────
+requests>=2.31
