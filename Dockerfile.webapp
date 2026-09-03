@@ -1,0 +1,31 @@
+# Ledger — Financial Document Intelligence web app
+# Includes tesseract/poppler so OCR works in the deployed container
+# (Render's native Python runtime can't install system packages -
+# that's why this app deploys via Docker, not the native runtime).
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    tesseract-ocr poppler-utils \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY webapp/requirements.txt ./webapp/requirements.txt
+RUN pip install --no-cache-dir -r webapp/requirements.txt
+
+# The webapp imports core.py from ../app and scripts from ../scripts,
+# and reads/writes ../data - so the whole project needs to be present,
+# not just the webapp folder.
+COPY app ./app
+COPY scripts ./scripts
+COPY data ./data
+COPY webapp ./webapp
+
+WORKDIR /app/webapp
+
+EXPOSE 8000
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" || exit 1
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

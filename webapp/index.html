@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ledger — AI Financial Document Intelligence Dashboard</title>
+<meta name="description" content="Upload, classify, analyze, and query financial documents with AI. Extract KPIs, revenue charts, profit analysis, ratios, and natural language Q&A.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Chart.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+<!-- Styles -->
+<link rel="stylesheet" href="/static/style.css?v=2.0">
+
+<style>
+/* ===================================================================
+   EMBEDDED AUTH CSS (Prevents any caching or layout shift issues)
+   =================================================================== */
+:root {
+  --blue: #3B82F6;
+  --blue-hover: #2563EB;
+  --bg-base: #0B0F17;
+  --bg-surface: #111827;
+  --bg-elevated: #1F2937;
+  --border: rgba(255, 255, 255, 0.08);
+  --text-primary: #F9FAFB;
+  --text-secondary: #E5E7EB;
+  --text-muted: #9CA3AF;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background: #0B0F17;
+  color: #F9FAFB;
+}
+
+.auth-wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top center, rgba(30, 58, 138, 0.35) 0%, rgba(11, 15, 23, 0.98) 70%), #0B0F17;
+  overflow-y: auto;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-brand {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.auth-brand-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #3B82F6, #6366F1);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  box-shadow: 0 0 28px rgba(59, 130, 246, 0.4);
+}
+
+.auth-brand-name {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin: 0 0 4px 0;
+}
+
+.auth-brand-tagline {
+  font-size: 13px;
+  color: #9CA3AF;
+  margin: 0;
+}
+
+.auth-card {
+  width: 100%;
+  background: rgba(17, 24, 39, 0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 30px 26px;
+  box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+}
+
+.auth-card-header {
+  margin-bottom: 20px;
+}
+
+.auth-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 6px 0;
+}
+
+.auth-subtitle {
+  font-size: 13px;
+  color: #9CA3AF;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.auth-alert {
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.auth-alert.error {
+  background: rgba(239, 68, 68, 0.16);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  color: #FCA5A5;
+}
+
+.auth-alert.info {
+  background: rgba(59, 130, 246, 0.16);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  color: #93C5FD;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-label {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #E5E7EB;
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-icon-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  width: 16px !important;
+  height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  color: #9CA3AF;
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+.form-input {
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(11, 15, 23, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 9px;
+  padding: 11px 14px 11px 38px;
+  color: #ffffff;
+  font-size: 13.5px;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #3B82F6;
+  background: rgba(11, 15, 23, 0.98);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #9CA3AF;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.password-toggle-btn:hover {
+  color: #ffffff;
+}
+
+.remember-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  color: #9CA3AF;
+  cursor: pointer;
+}
+
+.form-checkbox {
+  accent-color: #3B82F6;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.auth-submit-btn {
+  width: 100%;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #3B82F6, #2563EB);
+  border: none;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.35);
+  transition: all 0.2s ease;
+}
+
+.auth-submit-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #4B8CF7, #1D4ED8);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.45);
+  transform: translateY(-1px);
+}
+
+.btn-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.auth-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #9CA3AF;
+  margin-top: 10px;
+}
+
+.auth-link {
+  color: #3B82F6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+  color: #60A5FA;
+}
+
+.auth-link.small {
+  font-size: 12px;
+}
+</style>
+</head>
+<body>
+
+<!-- ================================================================
+     AUTHENTICATION VIEW (Login / Sign Up / Forgot Password)
+     ================================================================ -->
+<div id="authView" class="auth-wrapper">
+  <div class="auth-container">
+    <!-- Brand Header -->
+    <div class="auth-brand">
+      <div class="auth-brand-icon">L</div>
+      <h1 class="auth-brand-name">Ledger</h1>
+      <p class="auth-brand-tagline">AI Financial Document Intelligence Platform</p>
+    </div>
+
+    <!-- Login Card -->
+    <div class="auth-card" id="loginCard">
+      <div class="auth-card-header">
+        <h2 class="auth-title">Welcome back</h2>
+        <p class="auth-subtitle">Sign in to access your financial intelligence dashboard</p>
+      </div>
+
+      <div class="auth-alert error" id="loginAlert" style="display: none;"></div>
+
+      <form id="loginForm" class="auth-form" novalidate>
+        <div class="form-group">
+          <label for="loginEmail" class="form-label">Email address</label>
+          <div class="input-icon-wrap">
+            <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;flex-shrink:0;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <input type="email" id="loginEmail" class="form-input" placeholder="analyst@company.com" required autocomplete="email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="label-row">
+            <label for="loginPassword" class="form-label">Password</label>
+            <a href="#" class="auth-link small" id="toForgotBtn">Forgot password?</a>
+          </div>
+          <div class="input-icon-wrap">
+            <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;flex-shrink:0;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+            <input type="password" id="loginPassword" class="form-input" placeholder="••••••••" required autocomplete="current-password">
+            <button type="button" class="password-toggle-btn" id="toggleLoginPw" aria-label="Toggle password visibility">
+              <svg class="eye-open" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <svg class="eye-closed" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;width:16px;height:16px;"><path d="M17.94 17.94A10.07 10.07 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19m-6.72-1.07a3 3 0 11-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="form-options">
+          <label class="remember-label">
+            <input type="checkbox" id="rememberMe" class="form-checkbox">
+            <span>Remember me for 7 days</span>
+          </label>
+        </div>
+
+        <button type="submit" class="auth-submit-btn" id="loginBtn">
+          <span class="btn-text">Sign In</span>
+          <span class="btn-spinner" style="display:none;"></span>
+        </button>
+
+        <div class="auth-switch">
+          <span>Don't have an account?</span>
+          <a href="#" class="auth-link" id="toSignupBtn">Sign up</a>
+        </div>
+      </form>
+    </div>
+
+    <!-- Sign Up Card -->
+    <div class="auth-card" id="signupCard" style="display: none;">
+      <div class="auth-card-header">
+        <h2 class="auth-title">Create an Account</h2>
+        <p class="auth-subtitle">Get started with AI-powered financial document intelligence</p>
+      </div>
+
+      <div class="auth-alert error" id="signupAlert" style="display: none;"></div>
+
+      <form id="signupForm" class="auth-form" novalidate>
+        <div class="form-group">
+          <label for="signupName" class="form-label">Full Name</label>
+          <div class="input-icon-wrap">
+            <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;flex-shrink:0;"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <input type="text" id="signupName" class="form-input" placeholder="Sarah Jenkins" required autocomplete="name">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="signupEmail" class="form-label">Email address</label>
+          <div class="input-icon-wrap">
+            <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;flex-shrink:0;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <input type="email" id="signupEmail" class="form-input" placeholder="sarah@company.com" required autocomplete="email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="signupPassword" class="form-label">Password (min. 6 characters)</label>
+          <div class="input-icon-wrap">
+            <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;flex-shrink:0;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+            <input type="password" id="signupPassword" class="form-input" placeholder="••••••••" required autocomplete="new-password">
+            <button type="button" class="password-toggle-btn" id="toggleSignupPw" aria-label="Toggle password visibility">
+              <svg class="eye-open" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <svg class="eye-closed" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;width:16px;height:16px;"><path d="M17.94 17.94A10.07 10.07 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19m-6.72-1.07a3 3 0 11-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="signupConfirmPassword" class="form-label">Confirm Password</label>
+          <div class="input-icon-wrap">
+            <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;flex-shrink:0;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+            <input type="password" id="signupConfirmPassword" class="form-input" placeholder="••••••••" required autocomplete="new-password">
+          </div>
+        </div>
+
+        <button type="submit" class="auth-submit-btn" id="signupBtn">
+          <span class="btn-text">Create Account</span>
+          <span class="btn-spinner" style="display:none;"></span>
+        </button>
+
+        <div class="auth-switch">
+          <span>Already have an account?</span>
+          <a href="#" class="auth-link" id="toLoginBtn">Sign in</a>
+        </div>
+      </form>
+    </div>
+
+    <!-- Forgot Password Card -->
+    <div class="auth-card" id="forgotCard" style="display: none;">
+      <div class="auth-card-header">
+        <h2 class="auth-title">Reset Password</h2>
+        <p class="auth-subtitle">Enter your account email to receive a password reset link</p>
+      </div>
+
+      <div class="auth-alert info" id="forgotAlert" style="display: none;"></div>
+
+      <form id="forgotForm" class="auth-form" novalidate>
+        <div class="form-group">
+          <label for="forgotEmail" class="form-label">Email address</label>
+          <div class="input-icon-wrap">
+            <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;flex-shrink:0;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <input type="email" id="forgotEmail" class="form-input" placeholder="analyst@company.com" required autocomplete="email">
+          </div>
+        </div>
+
+        <button type="submit" class="auth-submit-btn" id="forgotBtn">
+          <span class="btn-text">Send Reset Link</span>
+          <span class="btn-spinner" style="display:none;"></span>
+        </button>
+      </form>
+
+      <!-- Subform for resetting password if token is provided -->
+      <div id="resetSubSection" style="display:none; margin-top:20px; border-top:1px solid rgba(255,255,255,0.08); padding-top:16px;">
+        <h3 style="font-size:14px; font-weight:600; color:var(--text-primary); margin-bottom:12px;">Enter New Password</h3>
+        <form id="resetForm" class="auth-form" novalidate>
+          <input type="hidden" id="resetToken">
+          <div class="form-group">
+            <label for="resetNewPassword" class="form-label">New Password</label>
+            <input type="password" id="resetNewPassword" class="form-input" placeholder="••••••••" required>
+          </div>
+          <div class="form-group">
+            <label for="resetConfirmPassword" class="form-label">Confirm New Password</label>
+            <input type="password" id="resetConfirmPassword" class="form-input" placeholder="••••••••" required>
+          </div>
+          <button type="submit" class="auth-submit-btn" id="resetSubmitBtn">
+            <span class="btn-text">Update Password</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="auth-switch" style="margin-top:20px;">
+        <a href="#" class="auth-link" id="forgotToLoginBtn">← Back to Sign In</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="app-shell" id="appShell" style="display:none;">
+
+  <!-- ================================================================
+       SIDEBAR
+       ================================================================ -->
+  <aside class="sidebar" id="sidebar">
+
+    <div class="sidebar-brand">
+      <div class="brand-icon">L</div>
+      <div class="brand-text">
+        <span class="brand-name">Ledger</span>
+        <span class="brand-sub">Financial Intelligence</span>
+      </div>
+    </div>
+
+    <!-- Document selector -->
+    <div class="sidebar-doc-panel">
+      <p class="sidebar-section-label">Active Document</p>
+      <select class="doc-selector" id="docSelector">
+        <option value="">— Select a document —</option>
+      </select>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sidebar-nav">
+      <p class="nav-group-label">Input</p>
+      <button class="nav-item active" id="nav-upload" data-section="sec-upload">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0018 9h-1.26A8 8 0 103 16.3"/></svg>
+        Document Upload
+      </button>
+      <button class="nav-item" id="nav-classify" data-section="sec-classify">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        Classification
+      </button>
+
+      <p class="nav-group-label">Analysis</p>
+      <button class="nav-item" id="nav-kpis" data-section="sec-kpis">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        Financial KPIs
+      </button>
+      <button class="nav-item" id="nav-revenue" data-section="sec-revenue">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        Revenue Charts
+      </button>
+      <button class="nav-item" id="nav-profit" data-section="sec-profit">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        Profit Charts
+      </button>
+      <button class="nav-item" id="nav-ratios" data-section="sec-ratios">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+        Financial Ratios
+      </button>
+
+      <p class="nav-group-label">Intelligence</p>
+      <button class="nav-item" id="nav-summary" data-section="sec-summary">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        AI Summary
+      </button>
+      <button class="nav-item" id="nav-insights" data-section="sec-insights">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        AI Insights
+      </button>
+      <button class="nav-item" id="nav-qa" data-section="sec-qa">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        Document Q&amp;A
+      </button>
+    </nav>
+
+    <!-- Upload CTA -->
+    <button class="sidebar-upload-btn" id="sidebarUploadBtn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/></svg>
+      Upload New Document
+    </button>
+  </aside>
+
+  <!-- ================================================================
+       MAIN CONTENT
+       ================================================================ -->
+  <div class="main-content">
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="topbar-title" id="topbarTitle">Dashboard Overview</div>
+        <div class="topbar-welcome" id="userWelcomeText">Welcome back, Analyst</div>
+      </div>
+      <div class="topbar-right">
+        <div class="topbar-status">
+          <div class="status-dot"></div>
+          <span>API Connected</span>
+        </div>
+        <div class="user-profile-pill" id="userProfilePill">
+          <div class="user-avatar" id="userAvatar">A</div>
+          <div class="user-info-text">
+            <span class="user-info-name" id="userNameText">Analyst</span>
+            <span class="user-info-email" id="userEmailText">analyst@ledger.ai</span>
+          </div>
+          <button class="logout-btn" id="logoutBtn" title="Sign out" aria-label="Sign out">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+            <span>Logout</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- All sections -->
+    <div class="content-sections">
+
+      <!-- ============================================================
+           SECTION 1: Document Upload
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-upload">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0018 9h-1.26A8 8 0 103 16.3"/></svg>
+            Document Upload
+          </h2>
+          <span class="section-subtitle">PDF, CSV, Images &amp; Scanned Documents — analyzed instantly on upload</span>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1.4fr 1fr; gap:14px; align-items:start;">
+
+          <!-- Drop zone -->
+          <div class="upload-zone" id="uploadZone">
+            <input type="file" id="fileInput" accept=".pdf,.csv,.jpg,.jpeg,.png,.webp,.tiff,.tif" aria-label="Upload financial document">
+            <div class="upload-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0018 9h-1.26A8 8 0 103 16.3"/></svg>
+            </div>
+            <p class="upload-title">Drop a financial document here</p>
+             <p class="upload-sub">PDF, CSV, JPG, PNG, WEBP, TIFF — or click to browse</p>
+            <div class="upload-formats">
+              <span class="fmt-pill pdf">PDF</span>
+              <span class="fmt-pill csv">CSV</span>
+              <span class="fmt-pill img">JPG</span>
+              <span class="fmt-pill img">PNG</span>
+              <span class="fmt-pill img">WEBP</span>
+              <span class="fmt-pill img">TIFF</span>
+            </div>
+            <div class="upload-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              AI-powered OCR &amp; Analysis
+            </div>
+
+            <div class="upload-progress" id="uploadProgress">
+              <div class="progress-bar-track" style="margin-top:20px;">
+                <div class="progress-bar-fill" id="progressFill"></div>
+              </div>
+              <div class="progress-stages" id="progressStages">
+                <span class="stage-pill" id="stage0">Uploading</span>
+                <span class="stage-pill" id="stage1">Extracting</span>
+                <span class="stage-pill" id="stage2">Classifying</span>
+                <span class="stage-pill" id="stage3">Metrics</span>
+                <span class="stage-pill" id="stage4">Ratios</span>
+                <span class="stage-pill" id="stage5">Summary</span>
+                <span class="stage-pill" id="stage6">RAG Index</span>
+                <span class="stage-pill" id="stage7">Insights</span>
+              </div>
+              <p class="stage-status-text" id="stageStatusText" style="text-align:center;margin-top:10px;font-size:12px;color:var(--text-muted);"></p>
+            </div>
+          </div>
+
+          <!-- Document list -->
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">Documents in Pipeline</span>
+              <span class="badge badge-blue" id="docCountBadge">0</span>
+            </div>
+            <div style="padding: 8px 0;" id="docListContainer">
+              <div class="empty-state">
+                <div class="empty-icon">📂</div>
+                <p class="empty-title">No documents yet</p>
+                <p class="empty-sub">Upload a document to see it here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SECTION 2: Document Classification
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-classify">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            Document Classification
+          </h2>
+          <span class="section-subtitle">ML model identifies statement type and confidence</span>
+        </div>
+
+        <div class="classification-layout">
+          <!-- Badge + confidence -->
+          <div class="class-badge-card" id="classificationBadgeCard">
+            <div class="empty-state">
+              <div class="empty-icon">🏷️</div>
+              <p class="empty-title">Select a document</p>
+              <p class="empty-sub">Classification will appear here</p>
+            </div>
+          </div>
+
+          <!-- Probability chart -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <span class="chart-title">Class Probabilities</span>
+              <span class="chart-subtitle" id="classModelLabel">—</span>
+            </div>
+            <div class="chart-body">
+              <div class="chart-canvas-wrap">
+                <canvas id="classChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SECTION 3: Financial KPIs
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-kpis">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            Financial KPIs
+          </h2>
+          <span class="section-subtitle" id="kpiPeriodLabel">NovaTech Industries Ltd. · FY2026</span>
+        </div>
+
+        <div class="kpi-grid" id="kpiGrid">
+          <!-- Populated by JS -->
+          <div class="kpi-card blue">
+            <p class="kpi-label">Revenue</p>
+            <p class="kpi-value skeleton" style="height:30px; width:80%;"> </p>
+            <span class="kpi-delta flat skeleton" style="height:20px;width:60px;"> </span>
+          </div>
+          <div class="kpi-card green">
+            <p class="kpi-label">Net Profit</p>
+            <p class="kpi-value skeleton" style="height:30px; width:80%;"> </p>
+            <span class="kpi-delta flat skeleton" style="height:20px;width:60px;"> </span>
+          </div>
+          <div class="kpi-card amber">
+            <p class="kpi-label">Profit Margin</p>
+            <p class="kpi-value skeleton" style="height:30px; width:60%;"> </p>
+            <span class="kpi-delta flat skeleton" style="height:20px;width:60px;"> </span>
+          </div>
+          <div class="kpi-card purple">
+            <p class="kpi-label">Current Ratio</p>
+            <p class="kpi-value skeleton" style="height:30px; width:50%;"> </p>
+            <span class="kpi-delta flat skeleton" style="height:20px;width:60px;"> </span>
+          </div>
+        </div>
+
+        <!-- Extracted metrics table -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Extracted Financial Figures</span>
+            <span class="badge badge-green" id="metricsCountBadge">—</span>
+          </div>
+          <div class="metrics-table-wrap">
+            <table class="data-table" id="metricsTable">
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>Value</th>
+                  <th>Year</th>
+                  <th>Document</th>
+                </tr>
+              </thead>
+              <tbody id="metricsTableBody">
+                <tr><td colspan="4"><div class="empty-state"><p class="empty-sub">Loading metrics…</p></div></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SECTION 4: Revenue Charts
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-revenue">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            Revenue Charts
+          </h2>
+          <span class="section-subtitle">Revenue breakdown and cost structure</span>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-card">
+            <div class="chart-header">
+              <span class="chart-title">Revenue vs COGS vs Gross Profit</span>
+              <span class="chart-subtitle">FY2026</span>
+            </div>
+            <div class="chart-body">
+              <div class="chart-canvas-wrap">
+                <canvas id="revenueChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-header">
+              <span class="chart-title">Operating Expense Breakdown</span>
+              <span class="chart-subtitle">FY2026</span>
+            </div>
+            <div class="chart-body">
+              <div class="chart-canvas-wrap">
+                <canvas id="opexChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SECTION 5: Profit Charts
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-profit">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            Profit Charts
+          </h2>
+          <span class="section-subtitle">Profit progression and margin trends</span>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-card">
+            <div class="chart-header">
+              <span class="chart-title">Profit Waterfall</span>
+              <span class="chart-subtitle">Revenue → Net Income</span>
+            </div>
+            <div class="chart-body">
+              <div class="chart-canvas-wrap">
+                <canvas id="profitWaterfallChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-header">
+              <span class="chart-title">Profit Margins</span>
+              <span class="chart-subtitle">Gross / Operating / Net</span>
+            </div>
+            <div class="chart-body">
+              <div class="chart-canvas-wrap">
+                <canvas id="marginChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SECTION 6: Financial Ratios
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-ratios">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+            Financial Ratios
+          </h2>
+          <span class="section-subtitle">Liquidity, leverage, and profitability ratios</span>
+        </div>
+
+        <div class="ratios-grid" id="ratiosGrid">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SECTION 7: AI Summary
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-summary">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            AI Summary
+          </h2>
+          <span class="section-subtitle" id="summaryDocLabel">Select a document to view its summary</span>
+        </div>
+
+        <div class="summary-accordion" id="summaryAccordion">
+          <div class="empty-state card-pad">
+            <div class="empty-icon">📝</div>
+            <p class="empty-title">No document selected</p>
+            <p class="empty-sub">Choose a document from the selector above, or upload one</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SECTION 8: AI Insights
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-insights">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            AI Insights
+          </h2>
+          <span class="section-subtitle">AI-generated financial insights across the document set</span>
+        </div>
+
+        <!-- Risk banner -->
+        <div class="insights-risk-banner" id="riskBanner" style="display:none;">
+          <div>
+            <p class="risk-label">Overall Financial Risk</p>
+          </div>
+          <div class="risk-bar-wrap">
+            <div class="risk-bar-fill" id="riskBarFill"></div>
+          </div>
+          <div class="risk-value" id="riskValue">—</div>
+        </div>
+
+        <div class="insights-grid" id="insightsGrid">
+          <div class="empty-state card card-pad">
+            <div class="empty-icon">💡</div>
+            <p class="empty-title">Upload a document to generate insights…</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SECTION 8b: Anomaly Detection
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-anomalies">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Anomaly Detection
+          </h2>
+          <span class="section-subtitle">AI-flagged unusual patterns in the uploaded document</span>
+        </div>
+
+        <div id="anomaliesContainer">
+          <div class="empty-state card card-pad">
+            <div class="empty-icon">🔍</div>
+            <p class="empty-title">No document loaded</p>
+            <p class="empty-sub">Upload a document to detect anomalies</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           SECTION 9: Document Q&A
+           ============================================================ -->
+      <section class="dashboard-section" id="sec-qa">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            Document Q&amp;A
+          </h2>
+          <span class="section-subtitle">Ask questions — answers are cited from the actual document text</span>
+        </div>
+
+        <div class="chat-container">
+          <div class="chat-header">
+            <div class="chat-header-icon">🤖</div>
+            <div>
+              <p class="chat-header-title">Financial Document Assistant</p>
+            </div>
+            <span class="chat-header-sub">RAG-powered · cites sources</span>
+          </div>
+
+          <div class="chat-log" id="chatLog">
+            <!-- Initial AI message -->
+            <div class="chat-msg ai">
+              <div class="chat-avatar">AI</div>
+              <div>
+                <div class="chat-bubble">
+                  Ask me anything about the documents in the pipeline. For example:
+                </div>
+                <div class="suggested-questions">
+                  <button class="suggested-q" data-q="What was the company's revenue in FY2026?">Revenue FY2026?</button>
+                  <button class="suggested-q" data-q="What is the net profit margin?">Net profit margin?</button>
+                  <button class="suggested-q" data-q="What are the main risk factors?">Main risks?</button>
+                  <button class="suggested-q" data-q="What is the debt-to-equity ratio?">D/E ratio?</button>
+                  <button class="suggested-q" data-q="What was the operating profit?">Operating profit?</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="chat-input-row" id="chatForm">
+            <input
+              type="text"
+              id="chatInput"
+              class="chat-input"
+              placeholder="Ask about revenue, profit, risks, ratios…"
+              autocomplete="off"
+            >
+            <button type="submit" class="chat-send-btn" id="chatSendBtn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Ask
+            </button>
+          </form>
+        </div>
+      </section>
+
+    </div><!-- /content-sections -->
+  </div><!-- /main-content -->
+</div><!-- /app-shell -->
+
+<!-- Toast container -->
+<div class="toast-container" id="toastContainer"></div>
+
+<script src="/static/app.js?v=2.0"></script>
+</body>
+</html>
