@@ -72,6 +72,12 @@ app.add_middleware(
 @app.on_event("startup")
 async def startup_event():
     """Migrate the CSV catalog into SQLite on first start (idempotent)."""
+    # Ensure all required data directories exist (important for Render deployment)
+    data_root = os.path.join(os.path.dirname(APP_DIR), "data")
+    for sub in ["uploads", "raw", "processed", "analysis", "anomalies",
+                "insights", "metrics_extracted", "nlp_processed",
+                "summaries", "rag", "models"]:
+        os.makedirs(os.path.join(data_root, sub), exist_ok=True)
     try:
         catalog_path = os.path.join(os.path.dirname(APP_DIR), "data", "raw", "dataset_catalog.csv")
         if os.path.exists(catalog_path):
@@ -91,6 +97,12 @@ async def monitoring_middleware(request: Request, call_next):
     except Exception:
         pass
     return response
+
+
+@app.get("/health")
+async def health_check():
+    """Health check endpoint for Render deployment."""
+    return {"status": "ok"}
 
 
 class QARequest(BaseModel):
